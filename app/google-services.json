@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644958542573",
+    "project_id": "busuniveloued",
+    "storage_bucket": "busuniveloued.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644958542573:android:ae7cd1836c98f247cb8ae4",
+        "android_client_info": {
+          "package_name": "com.example.busuniveloued"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644958542573-l9fdmnmrj288mp1r4q68r659r695h5np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi6K_U_oORji1TyUeraCzmH2r0xcOEGF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644958542573-l9fdmnmrj288mp1r4q68r659r695h5np.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

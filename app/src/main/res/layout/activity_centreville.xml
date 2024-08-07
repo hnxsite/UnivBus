@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background02"
+    tools:context=".centreville">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:onClick="openbackActivity"
+            android:padding="5dp"
+            android:src="@drawable/ic_back_white"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/TitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="وسط المدينة"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="26sp"
+
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/toolbarRl"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/mallahBtn"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_button01"
+            android:onClick="openmallahActivity"
+            android:text="ج.الشط - الملاح - الحاجز الامني -ج.الشهداء"
+            android:textSize="24sp"
+            app:shapeAppearance="@style/styleRoundeCornersButton" />
+
+        <Button
+            android:id="@+id/qatsontBtn"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/mallahBtn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_button01"
+            android:onClick="openckattsonActivity"
+            android:text="ج.الشط - تكسبت - 400 سكن - ج.الشهداء"
+            android:textSize="24sp"
+            app:shapeAppearance="@style/styleRoundeCornersButton" />
+
+        <Button
+            android:id="@+id/sahanBtn"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/qatsontBtn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_button01"
+            android:onClick="opensahanActivity"
+            android:text="ج.الشط - تكسبت - الصحن - ج.الشهداء"
+            android:textSize="24sp"
+            app:shapeAppearance="@style/styleRoundeCornersButton" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

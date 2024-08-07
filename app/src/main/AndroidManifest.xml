@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BUSUnivELOUED"
+        tools:targetApi="31">
+        <activity
+            android:name=".ouarmassback03"
+            android:exported="false" />
+        <activity
+            android:name=".ouarmassback02"
+            android:exported="false" />
+        <activity
+            android:name=".ouarmassback01"
+            android:exported="false" />
+        <activity
+            android:name=".ouarmassgo02"
+            android:exported="false" />
+        <activity
+            android:name=".ouarmassgo01"
+            android:exported="false" />
+        <activity
+            android:name=".ouarmasssituation"
+            android:exported="false" />
+        <activity
+            android:name=".zogomsituation"
+            android:exported="false" />
+        <activity
+            android:name=".zogomgo02"
+            android:exported="false" />
+        <activity
+            android:name=".zogomgo01"
+            android:exported="false" />
+        <activity
+            android:name=".zogomback03"
+            android:exported="false" />
+        <activity
+            android:name=".zogomback01"
+            android:exported="false" />
+        <activity
+            android:name=".sahanactivity"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouiback03"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouiback02"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouiback01"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouigo01"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouigo02"
+            android:exported="false" />
+        <activity
+            android:name=".trifaouisituation"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutgo02"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutgo01"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutback03"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutback02"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutback01"
+            android:exported="false" />
+        <activity
+            android:name=".teghzoutsituation"
+            android:exported="false" />
+        <activity
+            android:name=".signupactivity"
+            android:exported="false" />
+        <activity
+            android:name=".sidioungo02"
+            android:exported="false" />
+        <activity
+            android:name=".sidiounback03"
+            android:exported="false" />
+        <activity
+            android:name=".sidiounback02"
+            android:exported="false" />
+        <activity
+            android:name=".sidiounback01"
+            android:exported="false" />
+        <activity
+            android:name=".sidioungo01"
+            android:exported="false" />
+        <activity
+            android:name=".sidiounsituation"
+            android:exported="false" />
+        <activity
+            android:name=".regibaback03"
+            android:exported="false" />
+        <activity
+            android:name=".regibaback02"
+            android:exported="false" />
+        <activity
+            android:name=".regibaback01"
+            android:exported="false" />
+        <activity
+            android:name=".regibago02"
+            android:exported="false" />
+        <activity
+            android:name=".regibago01"
+            android:exported="false" />
+        <activity
+            android:name=".regibasituation"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahgo02"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahgo01"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahback03"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahback02"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahback01"
+            android:exported="false" />
+        <activity
+            android:name=".rabbahsituation"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssago02"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssago01"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssaback03"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssaback02"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssaback01"
+            android:exported="false" />
+        <activity
+            android:name=".oumihouanssasituation"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandaback03"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandaback02"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandago02"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandaback01"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandago01"
+            android:exported="false" />
+        <activity
+            android:name=".ouedaalandasituation"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglaback03"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglago02"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglago01"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglaback02"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglaback01"
+            android:exported="false" />
+        <activity
+            android:name=".nekhlaouglasituation"
+            android:exported="false" />
+        <activity
+            android:name=".mallahactivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginactivity"
+            android:exported="false" />
+        <activity
+            android:name=".magrinback03"
+            android:exported="false" />
+        <activity
+            android:name=".magrinback02"
+            android:exported="false" />
+        <activity
+            android:name=".magrinback01"
+            android:exported="false" />
+        <activity
+            android:name=".magringo02"
+            android:exported="false" />
+        <activity
+            android:name=".magringo01"
+            android:exported="false" />
+        <activity
+            android:name=".magrinsituation"
+            android:exported="false" />
+        <activity
+            android:name=".kouininback03"
+            android:exported="false" />
+        <activity
+            android:name=".kouininback02"
+            android:exported="false" />
+        <activity
+            android:name=".kouininback01"
+            android:exported="false" />
+        <activity
+            android:name=".kouiningo02"
+            android:exported="false" />
+        <activity
+            android:name=".kouiningo01"
+            android:exported="false" />
+        <activity
+            android:name=".kouininsituation"
+            android:exported="false" />
+        <activity
+            android:name=".kattsonactivity"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifago02"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifago01"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifaback03"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifaback02"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifaback01"
+            android:exported="false" />
+        <activity
+            android:name=".hassikhalifasituation"
+            android:exported="false" />
+        <activity
+            android:name=".hassaniback03"
+            android:exported="false" />
+        <activity
+            android:name=".hassaniback02"
+            android:exported="false" />
+        <activity
+            android:name=".hassanigo02"
+            android:exported="false" />
+        <activity
+            android:name=".hassaniback01"
+            android:exported="false" />
+        <activity
+            android:name=".hassanigo01"
+            android:exported="false" />
+        <activity
+            android:name=".hassanisituation"
+            android:exported="false" />
+        <activity
+            android:name=".ghamrago02"
+            android:exported="false" />
+        <activity
+            android:name=".ghamraback03"
+            android:exported="false" />
+        <activity
+            android:name=".ghamraback02"
+            android:exported="false" />
+        <activity
+            android:name=".ghamraback01"
+            android:exported="false" />
+        <activity
+            android:name=".ghamrago01"
+            android:exported="false" />
+        <activity
+            android:name=".ghamrasituation"
+            android:exported="false" />
+        <activity
+            android:name=".geumargo02"
+            android:exported="false" />
+        <activity
+            android:name=".geumargo01"
+            android:exported="false" />
+        <activity
+            android:name=".geumarback03"
+            android:exported="false" />
+        <activity
+            android:name=".geumarback02"
+            android:exported="false" />
+        <activity
+            android:name=".geumarback01"
+            android:exported="false" />
+        <activity
+            android:name=".geumarsituation"
+            android:exported="false" />
+        <activity
+            android:name=".djedidago02"
+            android:exported="false" />
+        <activity
+            android:name=".djedidago01"
+            android:exported="false" />
+        <activity
+            android:name=".djedidaback03"
+            android:exported="false" />
+        <activity
+            android:name=".djedidaback02"
+            android:exported="false" />
+        <activity
+            android:name=".djedidaback01"
+            android:exported="false" />
+        <activity
+            android:name=".djedidasituation"
+            android:exported="false" />
+        <activity
+            android:name=".debillaback03"
+            android:exported="false" />
+        <activity
+            android:name=".debillaback02"
+            android:exported="false" />
+        <activity
+            android:name=".debillaback01"
+            android:exported="false" />
+        <activity
+            android:name=".debillago02"
+            android:exported="false" />
+        <activity
+            android:name=".debillago01"
+            android:exported="false" />
+        <activity
+            android:name=".debillasituation"
+            android:exported="false" />
+        <activity
+            android:name=".centreville"
+            android:exported="false" />
+        <activity
+            android:name=".bustype"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhasituation"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhago02"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhago01"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhaback03"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhaback02"
+            android:exported="false" />
+        <activity
+            android:name=".bayadhaback01"
+            android:exported="false" />
+        <activity
+            android:name=".baladiyat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FcmMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

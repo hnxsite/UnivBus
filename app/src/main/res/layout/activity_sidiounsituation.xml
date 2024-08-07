@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background02"
+    tools:context=".sidiounsituation">
+    <RelativeLayout
+        android:id="@+id/toolbarRl"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:onClick="opencbackActivity"
+            android:padding="5dp"
+            android:src="@drawable/ic_back_white"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/TitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="سيدي عون"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/gotounivTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarRl"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="الذهاب الى الجامعة"
+        android:textColor="@color/text01"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/taw9it1Btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/gotounivTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/taw9it01"
+        android:onClick="opencgo01Activity"
+        android:text="8:00"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/taw9it2Btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/taw9it1Btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/taw9it01"
+        android:onClick="opencgo02Activity"
+        android:text="9:00"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/backunivTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/taw9it2Btn"
+        android:layout_marginTop="50dp"
+
+        android:text="العودة من الجامعة"
+        android:textColor="@color/text01"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/taw9it3Btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/backunivTv"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/taw9it02"
+        android:onClick="opencback01Activity"
+
+        android:text="13:00"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/taw9it4Btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/taw9it3Btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/taw9it02"
+        android:onClick="opencback02Activity"
+        android:text="16:30"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/taw9it5Btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/taw9it4Btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/taw9it02"
+        android:onClick="opencback03Activity"
+        android:text="17:30"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/noteTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/taw9it5Btn"
+        android:layout_marginTop="110dp"
+        android:text="ملاحظة: التوقيت ليس توقيت خروج الحافلة من أول موقف لها"
+        android:textColor="@color/note01"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

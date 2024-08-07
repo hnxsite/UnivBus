@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background02"
+    tools:context=".bustype">
+
+    <TextView
+        android:id="@+id/taw9itTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="توقيت الحافلات "
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/text01"/>
+
+    <Button
+        android:id="@+id/centerBtn"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/taw9itTv"
+        android:layout_marginTop="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/centrevillebtn"
+        android:onClick="opencentrevilleActivity"
+        app:shapeAppearance="@style/styleRoundeCornersButton"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:id="@+id/centerTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centerBtn"
+        android:gravity="center"
+        android:text="وسط المدينة"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text01"/>
+
+
+    <Button
+        android:id="@+id/baladyaBtn"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/centerTv"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/baladiyabtn"
+        android:onClick="openbaladyatActivity"
+        app:shapeAppearance="@style/styleRoundeCornersButton"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:id="@+id/baladyaTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baladyaBtn"
+        android:gravity="center"
+        android:text="البــلديـــات"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text01"/>
+
+</RelativeLayout>
